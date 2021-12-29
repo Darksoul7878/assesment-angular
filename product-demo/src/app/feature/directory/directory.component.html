@@ -1,0 +1,14 @@
+<div class="container py-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" *ngFor="let item of configData">
+            <div class="card">
+                <img src="https://storage.googleapis.com/support-forums-api/avatar/profile-17522-14748783545308206009.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.title}}</h5>
+                    <p class="card-text">{{item.body}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
